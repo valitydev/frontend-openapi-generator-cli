@@ -1,6 +1,6 @@
 {
   "name": "@vality/openapi-generator-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "lib/index.js",
   "bin": {
@@ -19,7 +19,7 @@
     "prettier": "2.7.1"
   },
   "dependencies": {
-    "@openapitools/openapi-generator-cli": "^2.4.26",
+    "@openapitools/openapi-generator-cli": "^2.5.1",
     "sade": "^1.8.1",
     "shelljs": "^0.8.5"
   }
