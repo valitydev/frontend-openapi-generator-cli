@@ -16,12 +16,13 @@
   "author": "Vality",
   "license": "Apache-2.0",
   "devDependencies": {
-    "prettier": "2.8.8",
-    "semver": "^7.5.3"
+    "@types/node": "^18.16.18",
+    "prettier": "2.8.8"
   },
   "dependencies": {
     "@openapitools/openapi-generator-cli": "^2.6.0",
     "sade": "^1.8.1",
+    "semver": "^7.5.3",
     "shelljs": "^0.8.5"
   }
 }
