@@ -22,7 +22,6 @@
   "dependencies": {
     "@openapitools/openapi-generator-cli": "^2.6.0",
     "sade": "^1.8.1",
-    "semver": "^7.5.3",
     "shelljs": "^0.8.5"
   }
 }
