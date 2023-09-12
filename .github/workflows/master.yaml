@@ -10,8 +10,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-            - uses: valitydev/action-frontend/setup@v0.1
+            - uses: valitydev/action-frontend/setup@v1.0
             - run: npm ci
-            - uses: valitydev/action-frontend/publish@v0.1
+            - uses: valitydev/action-frontend/publish@v1.0
               with:
                   npm-token: ${{ secrets.NPM_TOKEN }}
