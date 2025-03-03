@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/node": "^18.16.18",
-    "prettier": "2.8.8"
+    "prettier": "3.5.3"
   },
   "dependencies": {
     "@openapitools/openapi-generator-cli": "^2.6.0",
