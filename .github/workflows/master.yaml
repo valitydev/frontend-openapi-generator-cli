@@ -4,14 +4,18 @@ on:
     push:
         branches: ['master', 'main']
 
+permissions:
+    contents: read
+    id-token: write
+
 jobs:
     publish:
         name: Publish
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
-            - uses: valitydev/action-frontend/setup@v0.1
-            - run: npm ci
-            - uses: valitydev/action-frontend/publish@v0.1
+            - uses: actions/checkout@v6
+            - uses: valitydev/action-frontend/setup-install@v3
               with:
-                  npm-token: ${{ secrets.NPM_TOKEN }}
+                  node-version: 'lts/*'
+                  release: true
+            - uses: valitydev/action-frontend/publish@v3
